@@ -1,0 +1,148 @@
+* {
+    margin: 0;}
+*:any-link{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+body {
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#logo {
+    display: block;
+    position: absolute;
+    height: 92px;
+    width: 272px;
+    top:22%;
+    left:41.5%;
+}
+#vador {
+    display: block;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    border-radius: 50%;
+    height: 5%;
+    width: 2.5%;
+    background-color: blanchedalmond;
+}
+
+#ship {
+    display: block;
+    position: absolute;
+    height: 30%;
+    width: 20%;
+    top:5%;
+    right:5%;
+    z-index: -1;
+    animation: ship 3s ease-out infinite ;
+    -webkit-animation: ship 3s ease-out infinite  ;
+}
+@keyframes ship {
+    from {right:5%;
+    top:5%}
+    to { right: 10%;
+    top:10%}
+}
+@-webkit-keyframes ship {
+    from {right:5%;
+    top:5%}
+    to { right: 10%;
+    top:10%}
+}
+#vid {
+    display: block;
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    left:-10%;
+    top:58%;
+    z-index:-1;
+}
+#barre {
+    display: block;
+    position: absolute;
+    width: 35%;
+    height:5%;
+    top:40%;
+    left:32%;
+    border-radius: 25px;
+    border: 5px solid blanchedalmond;
+    box-shadow: 3px 3px 20px rgb(36, 34, 34);
+}
+#barre:hover {
+    box-shadow: 1px 1px 10px blanchedalmond;
+}
+#barre input {
+    display: block;
+    position: absolute;
+    background-color: inherit;
+    color: blanchedalmond;
+    top:25%;
+    width: 80%;
+    left:10%;
+    text-align: center;
+    border: none;
+}
+#search {
+    display: block;
+    position: absolute;
+    color: greenyellow;
+    top: 20%;
+    left: 2.5%;
+}
+#mic {
+    display: block;
+    position: absolute;
+    color: greenyellow;
+    top: 20%;
+    right: 2.5%;
+}
+#bas {
+    display: block;
+    position: absolute;
+    color: greenyellow;
+    top: 50%;
+    left: 42%;
+    padding: 0;
+    align-items: center;
+}
+#bas p {
+    display: block;
+    position: absolute;
+    color: greenyellow;
+    top:100%;
+    left: 15%;
+
+}
+button {
+    display: inline-block;
+    border-radius: 25px;
+    color: black;
+    margin: 10px;
+    background-color: blanchedalmond;
+}
+button:hover {
+    cursor: pointer;
+}
+footer {
+    display:block;
+    position: absolute;
+    bottom: 1%;
+    color: greenyellow;
+    width: 100%;
+}
+footer li{
+    display: inline-block;
+    margin-right: 5%;
+}
+#rigth {
+    display: block;
+    position: absolute;
+    right: -30%;
+    top:1%;
+    width: 70%;
+    margin:0;
+}
+
